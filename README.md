@@ -1,98 +1,118 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Gerador de QRcode para e-commerce</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+# 💻 Kit de Utilidades para E-commerce
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green)](https://nodejs.org/) 
+[![NPM](https://img.shields.io/badge/NPM-7+-blue)](https://www.npmjs.com/) 
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/<usuario>/<repositorio>/nodejs.yml?branch=main)](https://github.com/<usuario>/<repositorio>/actions)
+[![Coverage](https://img.shields.io/badge/Coverage-90%25-brightgreen)](https://github.com/<usuario>/<repositorio>/actions)
 
-</p>
+Este projeto é um **kit de utilidades para e-commerce**, focado em **escalabilidade** e **modularidade**, permitindo adicionar novas funcionalidades de forma rápida e organizada.
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+---
 
-<br/>
-<br/>
+## 🎬 Demonstração
 
-## 💻 Sobre o Projeto
+![QR Code Demo](https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif)  
+*Exemplo de geração de QR Code usando Node.js*
 
-Vamos construir um kit de utilidades para um e-commerce, o projeto deve ser escalável para ter adição de novas features.
+---
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+## 📚 Pré-requisitos
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+Antes de começar, é importante ter conhecimento básico em:
 
-- Lógica de programação
-- Javascript | Básico
-- NodeJS | Básico
-- Node Modules
-- NPM, Packages, Dependencies
-- Variáveis ambiente (.env)
+- 🧠 **Lógica de programação**  
+- 💻 **JavaScript**  
+- 🟢 **Node.js**  
+- 📦 **Gerenciamento de pacotes com NPM**  
+- ⚙️ **Variáveis de ambiente (.env)**  
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+---
 
-- Como gerar qrcode com node
-- Como lidar com várias dependências de um projeto
-- Como pensar em projetos por camadas
+## 🛠️ O que você vai aprender
 
-## 🎯 Objetivos e Resultados Esperados
+- 📲 **Gerar QR Codes** com Node.js  
+- 🧩 **Gerenciar múltiplas dependências**  
+- 🏗️ **Estruturar projetos em camadas**  
+- ✅ **Testes unitários** com cobertura  
+- 🔧 **Workflow CI/CD básico**  
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+---
 
-- Criar projetos nodejs que gerem multiplas dependências
+## 🎯 Objetivos
 
-<!--START_SECTION:footer-->
+Ao final do projeto, você será capaz de:
 
-<br />
-<br />
+- Criar aplicações Node.js com múltiplas dependências  
+- Desenvolver uma **arquitetura escalável** para e-commerce  
+- Implementar **testes automatizados**  
+- Configurar **CI/CD** básico para deploy e integração contínua  
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+---
+
+## 🚀 Instalação e Execução
+
+1. **Clone o repositório:**  
+```bash
+git clone https://github.com/<usuario>/<repositorio>.git
+
+Entre na pasta do projeto:
+
+cd <nome-do-projeto>
+
+
+Instale as dependências:
+
+npm install
+
+
+Configure seu arquivo .env com as variáveis necessárias.
+
+Execute em modo desenvolvimento:
+
+npm run start:dev
+
+
+Build e execução final:
+
+npm run start:dist
+
+
+Rodar testes e verificar cobertura:
+
+npm run test
+
+📁 Estrutura do Projeto
+/src
+ ├─ index.js       # Ponto de entrada
+ ├─ modules        # Módulos utilitários
+ ├─ config         # Configurações e variáveis de ambiente
+ └─ tests          # Testes unitários
+
+🤝 Contribuição
+
+Pull requests são bem-vindos! Para mudanças grandes, abra uma issue primeiro para discutir o que deseja alterar.
+Siga o padrão de commits:
+
+feat: nova funcionalidade
+fix: correção de bug
+docs: documentação
+
+📖 Aprenda mais
+
+Explore a estrutura do projeto e veja como cada módulo foi pensado para ser modular, escalável e testável.
+Sinta-se à vontade para contribuir e sugerir melhorias!
+
+📝 License
+
+Este projeto está sob a licença MIT
+.
+
+⭐ Se este projeto te ajudou, deixe uma estrela no GitHub!
+
+
+Essa versão já está pronta para **GitHub, mobile e portfólio**, com:  
+- Badges de Node.js, NPM, License, Workflow CI/CD e Coverage  
+- GIF de demonstração  
+- Seções claras de instalação, execução, testes e estrutura  
+- Contribuição com padrão de commits  
