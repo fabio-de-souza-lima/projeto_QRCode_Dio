@@ -89,30 +89,4 @@ npm run test
  ├─ config         # Configurações e variáveis de ambiente
  └─ tests          # Testes unitários
 
-🤝 Contribuição
 
-Pull requests são bem-vindos! Para mudanças grandes, abra uma issue primeiro para discutir o que deseja alterar.
-Siga o padrão de commits:
-
-feat: nova funcionalidade
-fix: correção de bug
-docs: documentação
-
-📖 Aprenda mais
-
-Explore a estrutura do projeto e veja como cada módulo foi pensado para ser modular, escalável e testável.
-Sinta-se à vontade para contribuir e sugerir melhorias!
-
-📝 License
-
-Este projeto está sob a licença MIT
-.
-
-⭐ Se este projeto te ajudou, deixe uma estrela no GitHub!
-
-
-Essa versão já está pronta para **GitHub, mobile e portfólio**, com:  
-- Badges de Node.js, NPM, License, Workflow CI/CD e Coverage  
-- GIF de demonstração  
-- Seções claras de instalação, execução, testes e estrutura  
-- Contribuição com padrão de commits  
